@@ -1,0 +1,81 @@
+.cardContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gotham';
+}
+.cardContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.ratingSection{
+  display: flex;
+  flex-direction: row;
+}
+.cardContent{
+  background: #FFFFFF;
+  border: 1px solid #ECECEC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hoverItem {
+  background-color: #F4F4F4;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  gap: 50px;
+  border-radius: 43px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  visibility: hidden;
+}
+.cardContent:hover{
+  display: hidden;
+  border: 1px solid red;
+}
+.cardContent:hover > .hoverItem  {
+  visibility: visible;
+}
+.cardTittle{
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #696969;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.cardBrand{
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  text-align: center;
+  color: #696969;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.cardPrice{
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 17px;
+  text-align: center;
+  color: #EB3F36;
+  padding: 0;
+  margin: 1rem 0 1rem 0;
+ 
+}

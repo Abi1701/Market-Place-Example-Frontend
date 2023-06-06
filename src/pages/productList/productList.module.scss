@@ -1,0 +1,80 @@
+.productListPage{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gotham';
+}
+.purchaseSection{
+  width: 100%;
+  height: 70px;
+  background: #F5F5F5;
+}
+.purchaseButton{
+  width: 220px;
+  height: 70px;
+  background-color: #EB3F36;
+  color: white;
+  border: none;
+  margin-left: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+}
+.breadCrumbs{
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.productListContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.asideMenu{
+  height: 338px;
+  height: 953px;
+}
+.asideTittle{
+  margin-left: 5rem;
+}
+.accordionPlace{
+  margin-left: 5rem;
+}
+.accordionMenu{
+  display: flex;
+  flex-direction: column;
+}
+.rightContentHeader{
+  display: flex;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  gap: 550px;
+}
+.quantity{
+  display: flex;
+  gap: 10px;
+}
+.sort{
+  display: flex;
+  gap: 10px;
+}
+.quantitySelect{
+  background: rgba(248, 248, 248, 0.75);
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+}
+.sortSelect{
+  background: rgba(248, 248, 248, 0.75);
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+}
+.cardContainer{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
